@@ -205,14 +205,16 @@ nav {
 .discount-text {
     width: 50%;
 }
-.discount-btn{
+
+.discount-btn {
     background-color: transparent;
     border: 1px solid white;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 20px;
 }
-.discount-number{
+
+.discount-number {
     background-color: #cce893;
     height: 80px;
     width: 80px;
@@ -223,33 +225,50 @@ nav {
     justify-content: center;
     position: absolute;
     left: 65%;
-    top:3%;
+    top: 3%;
 }
 
-.review-container{
- /* min-height: 700px; */
- gap: 20px;
- margin-top: 50px;
- border: 1px solid red;
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- align-content: center;
+.review-container {
+    gap: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
 }
-.single-review{
-    width:20%;
-    background-color: #E893CF;
-    border: 1px solid blue;
+
+.single-review {
     flex-basis: 300px;
-    border-radius: 10px;
+    background-color: #e893cf;
     padding: 10px;
+    border-radius: 10px;
 }
-.single-review img{
-    width:60px;
+
+.single-review img {
+    width: 60px;
     height: 60px;
 }
-.top-review{
+
+.top-review {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* footer section starts here */
+.footer-container {
+    background-color: #9376E0;
+    min-height: 300px;
+    padding: 60px 0px 0px;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+.footer-logo {
+    margin: 0 auto;
+    justify-content: center;
+
 }
